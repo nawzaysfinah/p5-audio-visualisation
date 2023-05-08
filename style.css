@@ -1,0 +1,54 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  display: flex;
+  margin: 25px;
+  background-image: linear-gradient(
+    to right,
+    rgb(254, 240, 138),
+    rgb(187, 247, 208),
+    rgb(34, 197, 94)
+  );
+  border: transparent;
+  width: 680px;
+  height: 150px;
+  font-size: 100px;
+}
+
+button:hover {
+  background-image: linear-gradient(
+    to right,
+    rgb(254, 202, 202),
+    rgb(220, 38, 38)
+  );
+  color: white;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: linear-gradient(
+    to right,
+    rgb(55, 65, 81),
+    rgb(17, 24, 39),
+    rgb(0, 0, 0)
+  );
+}
+canvas {
+  margin: auto;
+}
