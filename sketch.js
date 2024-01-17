@@ -13,7 +13,7 @@ function toggleSong() {
 }
 
 function preload() {
-  song = loadSound("hot-in-logika.mp3");
+  song = loadSound("A cause des garcons (Tepr remix).mp3");
 }
 
 function setup() {
